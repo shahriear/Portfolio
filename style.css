@@ -294,7 +294,7 @@ span {
   border: 5px solid transparent;
   transition: 0.4s ease-in-out;
 }
-.service_box:hover {
+.service_content .service_box:hover {
   background: var(--second-bg-color);
   color: var(--main-color);
   border: 5px solid var(--main-color);
@@ -356,7 +356,17 @@ span {
   font-size: 15px;
   padding: 7px 15px;
 }
-.project_card:hover {
+.project_card a {
+  font-size: 14px;
+  color: black;
+}
+.project_card .btn a:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
+  background-color: var(--main-color);
+  color: aliceblue;
+}
+.project_box .project_card:hover {
   box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
   transform: scale(1.02);
 }
